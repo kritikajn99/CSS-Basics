@@ -1,0 +1,70 @@
+header{
+  background-color:  #f06d06;
+  border-radius:25px;
+}
+h1 {
+  font-family: system-ui;
+  font-size: 45px;
+  color :black;
+  text-align: center;
+  text-shadow:2px 2px white;
+}
+nav a{
+  display:inline-block;
+  font-size:35px;
+  padding:1% 2%;
+  border-radius:15px;
+  background:yellow;
+  background:linear-gradient(green 0%, yellow 100%);
+  text-decoration:none;
+  margin:1% 6.5%;
+  opacity:.8;
+}
+
+a:hover{
+  background:green;
+  background:linear-gradient(yellow 0%, green 100%);
+  color:red;
+}
+.active{
+  color:green;
+  background:white;
+  background:linear-gradient(orange 0%, skyblue 100%);
+  text-shadow:1px 1px white;
+}
+img{
+  display:block;
+  margin:25px;
+  float: left;
+  width:45%;
+  border:solid 3px rgb(255, 191, 0);
+}
+p{
+  background:orange;
+  padding-top:7px;
+  display:block;
+  margin:5px;
+  float: right;
+  width:50%;
+  height:420px;
+  font-size:20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top :28px; 
+}
+h2{
+  margin: 10px;
+  font-size: 25px;
+  color :red;
+  text-align: left;
+  display: inline;
+
+}
+ marquee{
+
+  margin: 7px;
+  padding: 4px;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+
+}
